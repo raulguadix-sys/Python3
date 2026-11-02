@@ -12,7 +12,7 @@ while intentos > 0:
         print(f"Enhorabuena has acertado en {intentos_usados} intentos.")
         break
 
-    intentos -=1
+    intentos -= 1
 
     if n < numero_secreto:
         print(f"El número secreto es mayor. Te quedan {intentos} intentos.")
