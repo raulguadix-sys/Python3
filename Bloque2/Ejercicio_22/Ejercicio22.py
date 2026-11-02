@@ -17,7 +17,7 @@ while intentos > 0:
     if n < numero_secreto:
         print(f"El número secreto es mayor. Te quedan {intentos} intentos.")
     else:
-        print(f"Es número secreto es menor. Te quedan {intentos} intentos.")
+        print(f"El número secreto es menor. Te quedan {intentos} intentos.")
 
 if intentos == 0 and n != numero_secreto:
     print(f"¡Te has equivocado crack. El número secreto era: {numero_secreto}")    
