@@ -12,9 +12,9 @@ igual_limites = False
 num = int(input("Introduce un número o 0 para salir"))
 
 while num != 0:
-    if num > inf and num < sup:
+    if num > inferior and num < superior:
         suma_dentro += num
-    elif num < inf or num > sup:
+    elif num < inferior or num > superior:
         fuera += 1
     else:
         igual_limites = True
