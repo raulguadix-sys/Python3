@@ -1,10 +1,12 @@
-parcial1 = float(input("Introduce la nota del primer parcial: "))
-parcial2 = float(input("Introduce la nota del segundo parcial: "))
-parcial3 = float(input("Introduce la nota del tercer parcial: "))
+nota1 = float(input("Introduce la primera nota: "))
+nota2 = float(input("Introduce la segunda nota: "))
+nota3 = float(input("Introduce la tercera nota: "))
 examen_final = float(input("Introduce la nota del examen final: "))
 trabajo_final = float(input("Introduce la nota del trabajo final: "))
 
-media_parciales = (parcial1 + parcial2 + parcial3) / 3
-calificacion_final = (media_parciales * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15)
+promedio_notas = (nota1 + nota2 + nota3) / 3 * 0.55
+promedio_examen = examen_final * 0.30
+promedio_trabajo = trabajo_final * 0.15
 
-print(f"La calificación final en la materia es: {calificacion_final:.2f}")
+nota_final = promedio_notas + promedio_trabajo + promedio_examen
+print(f"La nota final del curso es un {nota_final}")
