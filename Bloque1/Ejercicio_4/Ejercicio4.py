@@ -1,7 +1,11 @@
-numero1 = float(input("Introduce el número 1: "))
-numero2 = float(input("Introduce el número 2: "))
+num1 = float(input("Introduce el primer número: "))
+num2 = float(input("Introduce el segundo número: "))
 
-print(f"Suma: {numero1 + numero2}")
-print(f"Resta: {numero1 - numero2}")
-print(f"Multiplicación: {numero1 * numero2}")
-print(f"División: {numero1 / numero2}")
+suma = num1 + num2
+print(f"{num1} + {num2} = {suma}")
+resta = num1 - num2
+print(f"{num1} - {num2} = {resta}")
+división = num1 / num2
+print(f"{num1} / {num2} = {división}")
+multiplicación = num1 * num2
+print(f"{num1} * {num2} = {multiplicación}")
