@@ -1,7 +1,7 @@
-numero1 = float(input("Introduce el primer número: "))
-numero2 = float(input("Introduce el segundo número: "))
-numero3 = float(input("Introduce el tercer número: "))
+num1 = float(input("Introduce el primer número: "))
+num2 = float(input("Introduce el segundo número: "))
+num3 = float(input("Introduce el tercer número: "))
 
-media = (numero1 + numero2 + numero3) / 3
+media = (num1 + num2 + num3) / 3
 
-print(f"La media es {media}")
+print(f"La media de los tres números es {media}")
