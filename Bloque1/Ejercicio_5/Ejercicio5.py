@@ -1,4 +1,5 @@
-fahrenheit = float(input("Introduce los grados en Fahrenheit: "))
-celsius = (fahrenheit - 32) * 5/9
+Fahrenheit = int(input("Introduce un valor en grados Fahrenheit: "))
 
-print(f"Hace {celsius} grados celsius")
+Celsius = int((Fahrenheit - 32) * 5 / 9)
+
+print(f"{Fahrenheit} grados Fahrenheit son {Celsius} grados Celsius.")
